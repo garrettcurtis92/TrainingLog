@@ -17,6 +17,12 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
+        
+#if DEV_MODE
+Text("DEV MODE ACTIVE").foregroundColor(.red).bold()
+#else
+Text("Production Mode").foregroundColor(.green)
+#endif
         NavigationView {
             List {
                 ForEach(items) { item in
@@ -80,6 +86,8 @@ private let itemFormatter: DateFormatter = {
     formatter.timeStyle = .medium
     return formatter
 }()
+
+
 
 #Preview {
     ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
