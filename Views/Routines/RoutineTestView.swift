@@ -109,7 +109,7 @@ struct RoutineTestView: View {
 
 // MARK:  - Routine Row View
 struct RoutineRowView: View {
-    @ObservedObject var routine:  Routine
+    @ObservedObject var routine: Routine
     
     var body:  some View {
         VStack(alignment: .leading, spacing: 8) {
