@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct ContentView:  View {
+struct ContentView: View {
     var body: some View {
         TabView {
             RoutineTestView()
@@ -29,7 +29,7 @@ struct ContentView:  View {
                 // Add your real content here
             }
             .padding()
-            . tabItem {
+            .tabItem {
                 Label("Home", systemImage: "house")
             }
         }
@@ -39,6 +39,6 @@ struct ContentView:  View {
 private let itemFormatter: DateFormatter = {
     let formatter = DateFormatter()
     formatter.dateStyle = .short
-    formatter.timeStyle = . medium
+    formatter.timeStyle = .medium
     return formatter
 }()
