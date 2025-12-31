@@ -28,7 +28,7 @@ struct RoutineTestView: View {
         NavigationView {
             VStack {
                 // Button to save test data
-                Button(action:  saveTestData) {
+                Button(action: saveTestData) {
                     Label("Save Test Routine", systemImage: "plus.circle.fill")
                         .font(.headline)
                         .foregroundColor(.white)
