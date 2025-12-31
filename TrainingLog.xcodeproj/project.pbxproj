@@ -16,6 +16,21 @@
 			path = TrainingLog;
 			sourceTree = "<group>";
 		};
+		79E8069D2F05D86000469B7C /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		79E8069E2F05D86B00469B7C /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79E8069F2F05D88100469B7C /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +49,9 @@
 			children = (
 				791CAB822F04441B009F07A7 /* TrainingLog */,
 				791CAB812F04441B009F07A7 /* Products */,
+				79E8069D2F05D86000469B7C /* Core */,
+				79E8069E2F05D86B00469B7C /* Models */,
+				79E8069F2F05D88100469B7C /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +80,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				791CAB822F04441B009F07A7 /* TrainingLog */,
+				79E8069D2F05D86000469B7C /* Core */,
+				79E8069E2F05D86B00469B7C /* Models */,
+				79E8069F2F05D88100469B7C /* Views */,
 			);
 			name = TrainingLog;
 			packageProductDependencies = (
