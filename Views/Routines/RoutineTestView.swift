@@ -3,11 +3,6 @@
 //  TrainingLog
 //
 //  Created by Garrett Curtis on 12/31/25.
-//
-//
-//  RoutineTestView.swift
-//  TrainingLog
-//
 //  Created for Issue #9 - Core Data Testing
 //
 
